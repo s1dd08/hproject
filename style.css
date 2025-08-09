@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  background: white;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.add-section, .list-section {
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background: #f9f9f9;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.completed-text {
+  color: green;
+  font-weight: bold;
+}
+
+/* Inline edit input fields inside list */
+li input[type="text"],
+li input[type="number"],
+li input[type="date"] {
+  width: auto;
+  padding: 5px;
+  margin-right: 5px;
+  font-size: 0.9em;
+}
+
+/* Buttons inside list items */
+li button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  width: auto;
+  font-size: 0.9em;
+}

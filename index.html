@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Study Buddy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Smart Study Buddy</h1>
+
+    <div class="add-section">
+      <h2>Add a New Subject</h2>
+      <input type="text" id="subjectInput" placeholder="Enter subject" />
+      <input type="number" id="studyTimeInput" placeholder="Study time (hrs)" />
+      <input type="date" id="dueDateInput" />
+      <button onclick="addSubject()">Add Subject</button>
+    </div>
+
+    <div class="list-section">
+      <h2>My Subjects</h2>
+      <input type="text" id="searchInput" placeholder="Search subjects..." />
+      <ul id="subjectList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
